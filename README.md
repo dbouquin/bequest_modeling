@@ -21,13 +21,13 @@ This project implements a Random Forest classifier to identify potential planned
 - Implemented modular Python processing scripts for scalability
 - Utilized Snowflake's computing infrastructure for efficient data handling
 
-### Machine Learning
+### [Machine Learning](https://github.com/dbouquin/bequest_modeling/blob/main/snowflake_ml/split_SMOTE_crossval.py)
 - Developed Random Forest classifier with cross-validation
 - Applied SMOTE for balanced training samples
 - Used multiple imputation strategies (MICE, mean, median) for handling missing data
 - Engineered temporal features like time between gifts
 
-### Model Performance and Validation
+### [Model Performance and Validation](https://github.com/dbouquin/bequest_modeling/blob/main/snowflake_ml/snowflake_model_evaluation.ipynb)
 The model achieved exceptional performance on this imbalanced dataset, with metrics demonstrating its effectiveness in identifying potential planned giving donors:
 
 - The 0.88 PR-AUC score indicates strong ability to distinguish between bequestors and non-bequestors while balancing precision and recall
@@ -71,7 +71,7 @@ Feature importance analysis revealed key predictors:
 │   └── snowflake_model_evaluation.py # Model evaluation and visualization
 ├── predictions_analyzed/             # Post-modeling analysis scripts
 │   ├── predictions_analyzed.ipynb    # Model concurrance evaluation
-│   └── predicted_bequestor_flags.sql # SQL script for data extraction
+│   └── predictions_existing_flags.sql # SQL script for data extraction
 └── README.md
 ```
 
