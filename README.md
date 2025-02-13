@@ -63,14 +63,14 @@ Feature importance analysis revealed key predictors:
 
 ## Repository Structure
 ```
-├── data_prep/                        # Data preparation scripts
-│   ├── sql/                          # SQL scripts for data extraction
-│   └── python/                       # Python scripts for data cleaning
+├── data_prep/                         # Data preparation scripts
+│   ├── sql/                           # SQL scripts for data extraction
+│   └── python/                        # Python scripts for data cleaning
 ├── model/                      
-│   ├── split_SMOTE_crossval.py       # ML model executed on Snowflake
-│   └── snowflake_model_evaluation.py # Model evaluation and visualization
-├── predictions_analyzed/             # Post-modeling analysis scripts
-│   ├── predictions_analyzed.ipynb    # Model concurrance evaluation
+│   ├── split_SMOTE_crossval.py        # ML model executed on Snowflake
+│   └── snowflake_model_evaluation.py  # Model evaluation and visualization
+├── predictions_analyzed/              # Post-modeling analysis scripts
+│   ├── predictions_analyzed.ipynb     # Model concurrance evaluation
 │   └── predictions_existing_flags.sql # SQL script for data extraction
 └── README.md
 ```
