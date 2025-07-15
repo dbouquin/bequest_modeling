@@ -1,0 +1,16 @@
+# Core ML libraries
+scikit-learn>=1.0.0
+pandas>=1.3.0
+numpy>=1.20.0
+imbalanced-learn>=0.8.0
+
+# Snowflake integration
+snowflake-snowpark-python>=1.0.0
+
+# Visualization (for evaluation notebook)
+seaborn>=0.11.0
+matplotlib>=3.4.0
+
+# Jupyter for running evaluation notebook
+jupyter>=1.0.0
+ipykernel>=6.0.0
